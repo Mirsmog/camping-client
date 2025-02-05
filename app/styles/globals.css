@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+
+@theme {
+	--color-brand-cyan-700: #047174;
+	--color-brand-cyan-500: #06A1A6;
+	--color-brand-cyan-200: #CDECEB;
+	--color-brand-cyan-100: #E6F6F6;
+
+	--color-brand-orange-500: #FF5508;
+	--color-brand-orange-100: #FDE0D3;
+	--color-brand-orange-50: #FFF9F8;
+
+	--color-brand-green-700: #489432;
+	--color-brand-green-500: #7EC964;
+	--color-brand-green-100: #F0FBEC;
+
+	--color-brand-gray-700: #181818;
+	--color-brand-gray-600: #3E3E3E;
+	--color-brand-gray-500: #757575;
+	--color-brand-gray-400: #D1D1D1;
+	--color-brand-gray-200: #E6E6E6;
+	--color-brand-gray-100: #F7F7F7;
+	--color-brand-white: #FFFFFF;
+}
+
+@layer utilities {
+	.text-heading-1 {
+		font-family: var(--font-lato);
+		font-weight: bold;
+		font-size: 3rem;
+	}
+
+	.text-heading-2 {
+		font-family: var(--font-lato);
+		font-weight: bold;
+		font-size: 2rem;
+	}
+
+	.text-heading-3 {
+		font-family: var(--font-lato);
+		font-weight: bold;
+		font-size: 1.5rem;
+	}
+
+	.text-heading-4 {
+		font-family: var(--font-lato);
+		font-weight: normal;
+		font-size: 1.5rem;
+	}
+
+	.text-heading-5 {
+		font-family: var(--font-lato);
+		font-weight: bold;
+		font-size: 1.25rem;
+	}
+
+	.text-body-1 {
+		font-family: var(--font-lato);
+		font-weight: bold;
+		font-size: 1rem;
+	}
+
+	.text-body-2 {
+		font-family: var(--font-lato);
+		font-weight: normal;
+		font-size: 1rem;
+	}
+
+	.text-body-3 {
+		font-family: var(--font-lato);
+		font-weight: normal;
+		font-size: 0.875rem;
+	}
+
+	.text-body-4 {
+		font-family: var(--font-lato);
+		font-weight: normal;
+		font-size: 0.75rem;
+	}
+}
