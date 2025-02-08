@@ -1,7 +1,9 @@
+import { Header } from "@/components/layout/header";
+
 export default function Home() {
   return (
     <div>
-      <div className="text-heading-5">Hello world</div>
+      <Header />
     </div>
   );
 }

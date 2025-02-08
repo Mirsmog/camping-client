@@ -24,6 +24,11 @@
 	--color-brand-white: #FFFFFF;
 }
 
+@utility container {
+	padding-inline: 16px;
+	margin-inline: auto;
+}
+
 @layer utilities {
 	.text-heading-1 {
 		font-family: var(--font-lato);
